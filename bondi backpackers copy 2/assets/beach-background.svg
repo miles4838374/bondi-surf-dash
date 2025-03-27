@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Beach Background -->
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="300" fill="#87CEEB"/>
+  <!-- Ocean -->
+  <rect x="0" y="300" width="800" height="300" fill="#1E90FF"/>
+  <!-- Beach -->
+  <path d="M0,300 L800,350 L800,450 L0,400 Z" fill="#F5DEB3"/>
+  <!-- Sun -->
+  <circle cx="700" cy="100" r="50" fill="#FFD700"/>
+  <!-- Clouds -->
+  <ellipse cx="200" cy="100" rx="60" ry="30" fill="white"/>
+  <ellipse cx="250" cy="90" rx="50" ry="25" fill="white"/>
+  <ellipse cx="300" cy="100" rx="40" ry="20" fill="white"/>
+  <ellipse cx="500" cy="150" rx="70" ry="35" fill="white"/>
+  <ellipse cx="550" cy="140" rx="60" ry="30" fill="white"/>
+  <ellipse cx="600" cy="150" rx="50" ry="25" fill="white"/>
+</svg>

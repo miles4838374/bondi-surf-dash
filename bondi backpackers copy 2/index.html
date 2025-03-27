@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bondi Surf Dash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="start-screen" class="screen">
+            <h1>Bondi Surf Dash</h1>
+            <p>Help the backpacker reach the beach in Nha Trang, Vietnam!</p>
+            <button id="start-button">Start Game</button>
+        </div>
+        <canvas id="game-canvas"></canvas>
+        <div id="win-screen" class="screen">
+            <h1>Congratulations!</h1>
+            <h2>You made it to the beach!</h2>
+            <div class="coupon">
+                <p class="social-post">I made it to the beach from Bondi Backpackers Nha Trang in <span id="player-time">0.0</span> seconds!</p>
+            </div>
+            <div class="coupon">
+                <p class="coupon-text">Post the image above to your social media and show at the bar for</p>
+                <p class="free-item">1 FREE BEER</p>
+                <p class="coupon-text">at Bondi Backpackers Nha Trang</p>
+                <p class="coupon-limit">Limit 1 per customer</p>
+            </div>
+            <a id="tripadvisor-link" href="https://www.tripadvisor.com/Search?q=Bondi%20Backpackers%20Nha%20Trang" target="_blank">Find Us on TripAdvisor</a>
+            <button id="restart-button">Play Again</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
